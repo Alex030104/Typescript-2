@@ -1,0 +1,27 @@
+:root {
+    --color-principal: #1bb4cb;
+    --color-basico: #ffffff;
+    --color-negro: #000000;
+    --color-sombra: #f1f1f1;
+    --tamaño-letra-titulo: 30px;
+}
+
+.menu {
+    background-color: var(--color-principal);
+    position: fixed;
+
+}
+.letra-menu {
+    color: var(--color-negro);
+    font-size: var(--tamaño-letra-titulo);
+    text-decoration: none;
+}
+
+.d-name{
+    color: var(--color-principal);
+}
+
+.d-box{
+    background-color: var(--color-sombra);
+}
+ 
